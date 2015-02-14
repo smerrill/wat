@@ -2,3 +2,4 @@ language: php
 php: 5.3.3
 before_install:
   - find ~/.phpenv/versions -maxdepth 1
+ 
