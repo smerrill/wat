@@ -1,5 +1,5 @@
-language: php
-php: 5.3.3
+language: node_js
+node_js: 0.10
 before_install:
-  - find ~/.phpenv/versions -maxdepth 1
- 
+  - sudo apt-get -y install php-cli php-gd php-mcrypt
+  - php -i
